@@ -1,0 +1,12 @@
+/Users/alacerda/.rvm/rubies/ruby-2.1.1/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20141117-9648-5h81kf
+installing default posix_spawn_ext libraries
