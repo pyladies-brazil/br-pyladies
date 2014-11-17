@@ -79,6 +79,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   foreman
   jekyll
   rack-jekyll
