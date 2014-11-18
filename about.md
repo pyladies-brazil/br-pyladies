@@ -2,7 +2,7 @@
 layout: aboutpage
 permalink: /about/index.html
 title: 
-tags: [Hossain, Mohd, Faysal, hmfaysal]
+tags: [pyladies, women, python]
 imagefeature: fourseasons.jpg
 chart: true
 ---
