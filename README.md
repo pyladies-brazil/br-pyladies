@@ -1,26 +1,31 @@
 [![Build Status](https://snap-ci.com/pyladies-brazil/br-pyladies/branch/master/build_image)](https://snap-ci.com/pyladies-brazil/br-pyladies/branch/master)
 
 
-PyLadies website use:
+#### PyLadies website uses:
 
-- Jekyll with Notepad theme made by [@hmfaysal](https://twitter.com/hmfaysal)
-- SnapCI for continuous integration
-- Heroku app for deploy
-
-
-
-Extra-Credits:
-
-* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
-* Font Awesome [http://fontawesome.io](http://fontawesome.io)
-* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
-* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
-* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
-* jQuery, Modernizr, Normalize.
+- **Jekyll** with Notepad theme made by [@hmfaysal](https://twitter.com/hmfaysal)
+- [SnapCI](snap-ci.com) for continuous integration and deploy
+- **Heroku** for hosting
+- [Marighella](https://github.com/marighella/cms) as a CMS
 
 
+  
+   
+   
+Thank you for your visit. You're more than welcome to contribute with us.
+
+**PyLadies team**
+
+______________
 
 
-Thank you for your visit. You're more than welcome to contribute.
+### Running PyLadies Website?
 
-PyLadies team
+`` git clone https://github.com/pyladies-brazil/br-pyladies.git``  
+
+``cd br-pyladies``   
+
+``LC_ALL="en_US.UTF-8" jekyll serve -w``
+
+<br>  
+Now you can access [http://localhost:4000/](http://localhost:4000/)
