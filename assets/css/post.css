@@ -44,8 +44,9 @@ html, body, .notepad-post-container, .notepad-post-header {
       color: white; }
   @media only screen and (min-width: 40.063em) {
     .post-template .notepad-blog-menu ul li a {
-      color: black; }
+      color: #e51843; }
       .post-template .notepad-blog-menu ul li a:hover {
+        color: black;
         border-bottom: 0.1875rem solid #e51843; } }
   .post-template .notepad-post-header {
     position: relative;
@@ -449,8 +450,8 @@ html, body, .notepad-post-container, .notepad-post-header {
     @media only screen and (min-width: 70em) {
       .notepad-page-title .notepad-post-meta-simple,
       .notepad-post-title-simple .notepad-post-meta-simple {
-        padding-top: 8.75rem;
-        padding-bottom: 5.625rem; } }
+        padding-top: 5.75rem;
+        padding-bottom: 3.625rem; } }
     @media only screen and (min-width: 90em) {
       .notepad-page-title .notepad-post-meta-simple,
       .notepad-post-title-simple .notepad-post-meta-simple {

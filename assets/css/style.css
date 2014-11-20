@@ -125,16 +125,18 @@ main, .notepad-share-icons, .notepad-disqus {
           text-align: left;
           padding: 0; }
           .notepad-blog-menu ul li a {
-            color: black;
+            color: #e51843;
             display: inline-block;
             border-bottom: 0.1875rem solid transparent;
             width: auto;
             height: auto; }
             .notepad-blog-menu ul li a:hover {
+              color: black;
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: white; }
+  background: white;
+  border-bottom: 1px solid #FAD7D7 }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }

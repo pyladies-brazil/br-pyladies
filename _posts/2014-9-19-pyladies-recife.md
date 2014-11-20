@@ -1,23 +1,24 @@
 ---
 layout: post
 title: "Primeiro encontro do PyLadies Recife"
-description: 
 headline: 
 modified: 2014-10-18
 category: Eventos
 tags: [Comunidade Python Brasil, PyLadies Recife, Python]
-imagefeature: pyladiesRecifeOficial2.jpg
 comments: true
-mathjax: 
 author: Lidiane Monteiro
 featured: true
 ---
 
 Lançamento do PyLadies Recife: um encontro para nunca mais esquecer!
 
+![pyladies-recife]({{site.baseurl}}/images/pyladiesRecifeOficial2.jpg)
+
+
 O 1º primeiro encontro do PyLadies Recife ocorreu em 06 de setembro, uma véspera de feriado em um sábado chuvoso, um contexto que em Recife se entende como quebra de participação em evento devido ao caos urbano e estrutural que toma a cidade. Apesar disso, o PyLadies Recife foi mais forte que qualquer situação controversa: reuniu cerca de 35 mulheres dispostas, curiosas e apaixonadas por computação, que queriam aprender mais, programar mais, conhecer mais, estudar mais…
  
 COMO TUDO COMEÇOU…. Palestra de abertura: “Yes, we can do IT!”
+
 
 <figure class="third">
 	<a href="{{ site.url }}/images/pyladiesRecife01.jpg"><img src="{{ site.url }}/images/pyladiesRecife01.jpg"></a>
