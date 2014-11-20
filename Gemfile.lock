@@ -58,6 +58,8 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
     rack-jekyll (0.3.5)
       jekyll
       rack
@@ -82,4 +84,5 @@ DEPENDENCIES
   foreman
   jekyll (>= 2.0)
   kramdown
+  rack-contrib
   rack-jekyll
