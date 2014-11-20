@@ -1,0 +1,24 @@
+<div class="notepad-site-head-menu">
+        <a class="notepad-blog-logo" href="{{ site.url }}/"><img style="height: 50px; margin: 10%;" src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
+        
+        
+        <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
+        <a href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
+            <a href="#"><i class="fa fa-times"></i></a>
+        </li>
+{% for link in site.links %}
+            <li>{% if link.external %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+            {% else %}
+            <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+            {% endif %} </li>
+{% endfor %}            
+           <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
+    </ul>
+</div>
+        <div class="clearfix"></div>
+    </div>

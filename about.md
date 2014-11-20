@@ -1,13 +1,13 @@
 ---
-layout: aboutpage
+layout: page
 permalink: /about/index.html
-title: 
+title: PyLadies Brasil
 tags: [pyladies, women, python]
 imagefeature: fourseasons.jpg
 chart: true
 ---
 <figure>
-  <img style="height: 300px; padding: -50px;" src="{{ site.url }}/images/boneca.png" alt="PyLadies"> 
+  <img style="height: 230px; padding: -50px;" src="{{ site.url }}/images/boneca.png" alt="PyLadies"> 
 </figure>
 
 <br/>
