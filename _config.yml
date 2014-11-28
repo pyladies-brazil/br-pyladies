@@ -27,18 +27,16 @@ bing_verify:
 # Links to include in navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
-    external: false
-    icon: home
   - title: Posts
     url: /featured
-  - title: Categorias
-    url: /categories
+  - title: Eventos
+    url: /events
+  - title: Locais
+    url: /locations
   - title: Sobre
     url: /about
-  - title: Locais
-    url: /locais
+  - title: Ladies
+    url: /ladies
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
