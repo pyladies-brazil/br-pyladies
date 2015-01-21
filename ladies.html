@@ -4,12 +4,54 @@ title: Ladies
 permalink: /ladies/index.html 
 
 ---
-<ul>
-	{% for member in site.data.members %}
-	<li>
-		<a href="https://github.com/{{ member.github }}">
-			{{ member.name }}
-		</a>
-	</li>
-	{% endfor %}
-</ul>
+<div id="archive">
+  <div class="wrap wrap-events">
+    <div class="large-12 columns-events">
+			<ul class="grid large-block-grid-6 locations-grid" >
+			{% for member in site.data.ladies %}
+			  <li class="location">
+			    
+			    <a target="blank" href="{{ member.url }}">
+			    	<span class="location-name"> 
+			            {{ member.name }}
+			        </span>
+			      <img class="img-location" src="{{ site.url }}{{ member.image }}">
+			    </a>
+
+					<div class="social-icons">
+        
+        {% if member.twitter %}
+        <a target="blank" href="http://twitter.com/{{ member.twitter }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        
+        {% if member.facebook %}
+        <a target="blank" href="http://facebook.com/{{ member.facebook }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+
+        {% if member.github %}
+        <a target="blank" href="http://github.com/{{ member.github }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        
+    </div>
+
+			  </li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

@@ -6,17 +6,55 @@ tags: [Locais]
 description: "Capítulos do PyLadies no Brasil"
 
 ---
+<div id="archive">
+  <div class="wrap wrap-events">
+    <div class="large-12 columns-events">
+			<ul class="grid large-block-grid-6 locations-grid" >
+			{% for location in site.data.locations %}
+			  <li class="location">
+			    
+			    <a target="blank" href="{{ location.url }}">
+			    	<span class="location-name"> 
+			            PyLadies {{ location.city }}
+			        </span>
+			      <img class="img-location" src="{{ site.url }}{{ location.image }}">
+			    </a>
 
-<ul>
-{% for location in site.data.locations %}
-  <li>
-    <span style="font-family: 'Shadows Into Light'; font-size: 19px;"> 
-            PyLadies {{ location.city }}
-        </span>
-    <a href="{{ location.url }}">
-      <img src="{{ site.url }}{{ location.image }}">
-    </a>
-  </li>
-{% endfor %}
-</ul>
+					<div class="social-icons">
+        
+        {% if location.twitter %}
+        <a target="blank" href="{{ location.twitter }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        
+        {% if location.facebook %}
+        <a target="blank" href="{{ location.facebook }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+
+        {% if location.email %}
+        <a target="blank" href="mailto:{{ location.email }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-envelope fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        
+    </div>
+
+			  </li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
 

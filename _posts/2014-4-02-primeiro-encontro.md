@@ -2,15 +2,13 @@
 layout: post
 title: "Primeiro encontro no Brasil"
 description: 
-headline: 
 modified: 2014-10-18
 category: Eventos
-tags: []
+tags: [eventos, natal]
 author: Gabriela Cavalcante
 imagefeature: evento.jpg
 comments: true
 mathjax: 
-featured: true
 ---
 
 Sabe aquele satisfação que dá quando quando vê que todo o esforço valeu a pena? Foi bem assim!

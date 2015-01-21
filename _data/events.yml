@@ -1,0 +1,35 @@
+# Next Events
+
+- url: http://bit.ly/pyladies-hangout
+  name: Hangout PyLadies
+  day: 24
+  month: Jan
+  year: 2015
+  local: Hangouts OnAir
+  past: false
+
+# Past Events
+
+- url: https://plus.google.com/u/0/events/cfv3qsupe4997jvgqc0fcuc1r04
+  name: PyLadies First
+  day: 26
+  month: Nov
+  year: 2014
+  local: Hangouts OnAir
+  past: true
+
+- url: 
+  name: PyLadies Recife
+  day: 06
+  month: Set
+  year: 2014
+  local: ThoughtWorks
+  past: true
+
+- url: 
+  name: I PyLadies Natal
+  day: 02
+  month: Abr
+  year: 2014
+  local: IFRN - Natal
+  past: true

@@ -1,6 +1,6 @@
 title:            PyLadies Brasil
 description:      "Ninguém pode fazer você se sentir inferior sem o seu consentimento (Eleanor Roosevelt)"
-logo:             logo.png
+logo:             pyladies-avatar.png
 disqus_shortname: pyladiesbrasil
 share:            true
 dropcap:			    true
@@ -27,23 +27,23 @@ bing_verify:
 # Links to include in navigation
 # For external links add external: true
 links:
-  - title: Posts
+  - title: Sobre
+    url: /about
+  - title: Blog
     url: /featured
   - title: Eventos
     url: /events
   - title: Locais
     url: /locations
-  - title: Sobre
-    url: /about
   - title: Ladies
     url: /ladies
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
+timezone:    America/Fortaleza
 future:      true
 highlighter: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    3
 paginate_path: "page:num"
 
 kramdown:

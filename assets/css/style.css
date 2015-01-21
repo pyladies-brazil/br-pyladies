@@ -1,3 +1,160 @@
+
+/* Eventos */
+
+#archive {padding-top: 20px;}
+
+#archive .grid {padding-top: 20px;}
+
+#archive .grid a .day, #archive .grid a .month, #archive a, #archive small, #archive .grid a .year, #archive .grid a .location {
+   color: #222222; }
+
+#archive h2 {
+  color: black;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+}
+#archive code, #archive abbr, #archive acronym { color: black; }
+#archive .grid a {
+  overflow: hidden;
+  padding: 0.25em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+#archive .next-events a {
+  background-color: #e51843;
+  display: block;
+}
+
+#archive .past-events a {
+  background-color: #A0A0A0;
+  display: block;
+}
+
+#archive .grid a:hover { background-color: #D0D0D0; }
+#archive .grid a .month {
+  color: white;
+  line-height: 1.5em;
+  margin: 0;
+  font-size: 16px;
+  min-width: 170px;
+  min-height: 35px; }
+#archive .grid a .month:before, #archive .grid a .month:after { content: "\2022"; display: inline-block; }
+#archive .grid a .month:before { float: left; }
+#archive .grid a .month:after { float: right; }
+
+
+#archive .grid a .day {
+  background-color: white;
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+#archive .grid a .year {
+  background-color: white;
+  line-height: 2em;
+  font-size: 12px;
+}
+#archive .grid a .local {
+  background-color: white;
+  border-top: 1px dashed #b3b3b3;
+  line-height: 2em;
+  border-radius: 0 0 0.25em 0.25em;
+  font-size: 16px;
+}
+
+.small-block-grid-3 > li:nth-of-type(3n+1) { clear: none; }
+.small-block-grid-3 > li { width: 33.33333%; padding: 0 0.625em 1.25em; }
+.small-block-grid-3 > li:nth-of-type(n) { clear: none; }
+.small-block-grid-3 > li:nth-of-type(3n+1) { clear: both; }
+.large-block-grid-6 > li { width: 16.66667%; padding: 0.25em 0 0.625em 1.25em; }
+.large-block-grid-6 > li:nth-of-type(n) { clear: none; display: inline-block;  width: inherit;}
+.large-block-grid-6 > li:nth-of-type(6n+1) { clear: both; display: inline-block; width: inherit;}
+.large-12 { position: relative; width: 100%; }
+
+ .columns-events {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* Locations e Ladies */
+
+.locations-grid {
+  padding-left: 0px;
+}
+
+.locations-grid .social-icons {
+  margin: 10px;
+}
+
+.location-name {
+  font-family: 'Shadows Into Light';
+  font-size: 19px;
+  padding: 0 15px;
+}
+
+.location {
+  min-width: 45%;
+  min-height: 135px;
+  background-color: #D0D0D0;
+  overflow: hidden;
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.location img {
+  width: 100px;
+  float: left;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+.location a {
+  background-color: #D0D0D0;
+  display: initial;
+}
+
+.location a:hover {
+  background-color: #e51843;
+}
+
+/* Utility */
+
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 140px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.wrap-videos {
+  padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid #DBDBDB;
+margin: 0 auto;
+width: 95%;
+}
+
+.wrap-events {
+  max-width: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .wrap { padding: 0 12px; }
+}
+
 /* tools */
 .cf:before,
 .cf:after {
@@ -32,7 +189,8 @@ header, main, footer {
   z-index: 1; }
 
 main, .notepad-share-icons, .notepad-disqus {
-  background: white; }
+  background: white;
+  margin: 0 auto; }
 
 .animated-post {
   background: transparent; }
@@ -125,7 +283,7 @@ main, .notepad-share-icons, .notepad-disqus {
           text-align: left;
           padding: 0; }
           .notepad-blog-menu ul li a {
-            color: #e51843;
+            color: black;
             display: inline-block;
             border-bottom: 0.1875rem solid transparent;
             width: auto;
@@ -135,13 +293,15 @@ main, .notepad-share-icons, .notepad-disqus {
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: white;
-  border-bottom: 1px solid #FAD7D7 }
+  background: rgb(240, 240, 240);
+  border-bottom: 1px solid #E5E5E5 }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }
     .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
-      max-height: 5rem; }
+      max-height: 5rem;
+      height: 70px;
+      margin: 10%; }
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
@@ -216,25 +376,31 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-bottom: 12.5rem; } }
 
 .notepad-content .notepad-index-post {
-  visibility: hidden;
+  /*visibility: hidden; -- uncomment to have the fadeIn effect back (as also line :561)*/
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 0.0625rem solid #d9d9d9; }
-  .notepad-content .notepad-index-post:first-of-type {
-    padding-top: 5rem; }
   .notepad-content .notepad-index-post .datetime {
     margin-bottom: 2.5rem; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post {
-      padding-top: 4.375rem;
-      padding-bottom: 4.375rem; }
-      .notepad-content .notepad-index-post:first-of-type {
-        padding-top: 7.5rem; }
+      width: 33%;
+      display: inline-block;
+      min-height: 350px;
+      margin-top: 3.375rem;
+      margin-bottom: 3px; }
       .notepad-content .notepad-index-post .datetime {
         margin-bottom: 0; } }
-  .notepad-content .notepad-index-post .notepad-post-meta {
-    display: block;
-    text-align: center; }
+  .notepad-content .notepad-index-post {
+    width: 33%;
+    display: inline-block;
+    min-height: 350px;
+    margin-top: 3.375rem;
+    margin-bottom: 3px; }
+    .notepad-post-meta {
+      width: 28%;
+      display: inline-block;
+    }
     .notepad-content .notepad-index-post .notepad-post-meta .day {
       display: block;
       font-size: 3.25rem;
@@ -246,11 +412,10 @@ main, .notepad-share-icons, .notepad-disqus {
       font-size: 1rem;
       color: black;
       font-size: 0.875rem;
-      font-family: "Montserrat", sans-serif;
-      text-transform: uppercase; }
+      font-family: "Montserrat", sans-serif;}
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: black;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
     font-size: 1.625rem;
@@ -262,7 +427,7 @@ main, .notepad-share-icons, .notepad-disqus {
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
-      font-size: 2.125rem;
+      font-size: 28px;
       margin-bottom: 0.9375rem; } }
   .notepad-content .notepad-index-post .notepad-post-excerpt {
     color: black;
@@ -271,7 +436,7 @@ main, .notepad-share-icons, .notepad-disqus {
     text-align: center; }
     .notepad-content .notepad-index-post .notepad-post-excerpt p {
       margin: 0;
-      font-size: 1.25rem; }
+      font-size: 15px; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-excerpt {
       text-align: left; } }
@@ -326,8 +491,7 @@ main, .notepad-share-icons, .notepad-disqus {
       margin-right: 0.3125rem; } }
 
 nav.pagination {
-  padding-top: 5.625rem;
-  padding-bottom: 5.625rem;
+  padding: 0px 5px 50px 5px;
   text-align: center; }
   nav.pagination .newer-posts,
   nav.pagination .older-posts,
@@ -338,6 +502,12 @@ nav.pagination {
     border-radius: 0.1875rem;
     color: black;
     border: 0.125rem solid black; }
+  nav.pagination .newer-posts {
+    float: left;
+  }
+  nav.pagination .older-posts {
+    float: right;
+  }
   nav.pagination .newer-posts:hover,
   nav.pagination .older-posts:hover {
     border: 0.125rem solid #e51843;
@@ -390,14 +560,14 @@ nav.pagination {
       text-align: right;
       float: right; } }
 
-.fadeInDown {
+/*.fadeInDown {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  visibility: visible !important; }
+  visibility: visible !important; }*/
 
 @-webkit-keyframes fadeInDown {
   0% {

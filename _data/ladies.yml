@@ -1,0 +1,16 @@
+- name: Aninha Lacerda
+  url: http://aninhalacerda.com
+  github: aninhalacerda
+  twitter: aninhalacerdaa
+  image: /images/ladies/aninha.png
+
+- name: Gabriela Cavalcanti
+  github: I-am-Gabi
+  image: /images/ladies/lady.png
+
+# Add yourself, following the alphabetical order. Here is the layout:
+# - name: seu nome aqui
+#   url: [optional] seu site pessoal
+#   github: [optional] seu usuario github
+#   twitter: [optional] seu usuario no twitter
+#   image: /images/ladies/lady.png [para mudar a foto, caso queira, basta adicionar a foto em /images/ladies e mudar o caminho aqui]

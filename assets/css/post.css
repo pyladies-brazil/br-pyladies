@@ -43,8 +43,6 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .notepad-blog-menu .notepad-mobile-menu a:hover {
       color: white; }
   @media only screen and (min-width: 40.063em) {
-    .post-template .notepad-blog-menu ul li a {
-      color: #e51843; }
       .post-template .notepad-blog-menu ul li a:hover {
         color: black;
         border-bottom: 0.1875rem solid #e51843; } }
@@ -208,13 +206,13 @@ html, body, .notepad-post-container, .notepad-post-header {
       .post-template .notepad-post-content > div:not(.notepad-post-title) p {
         margin: 0 auto 2em auto;
         max-width: 56.25rem;
-        font-size: 1.125rem; }
+        font-size: 16px; }
         .post-template .notepad-post-content > div:not(.notepad-post-title) p:first-child {
           font-size: 1.375rem;
           font-weight: 300; }
           @media only screen and (min-width: 40.063em) {
             .post-template .notepad-post-content > div:not(.notepad-post-title) p:first-child {
-              font-size: 1.625rem; } }
+              font-size: 18px; } }
         .post-template .notepad-post-content > div:not(.notepad-post-title) p.with-image {
           text-align: center;
           padding-top: 1.125rem;
@@ -308,14 +306,23 @@ html, body, .notepad-post-container, .notepad-post-header {
   padding-bottom: 3.75rem;
   border-top: 0.0625rem solid #f2f2f2;
   color: #e51843; }
+.notepad-post-share h4 {
+      font-size: 14px;
+      color: gray;
+    } 
   .notepad-post-share a {
     display: inline-block;
     margin: 0 0.9375rem;
     color: #e51843; }
   @media only screen and (min-width: 40.063em) {
     .notepad-post-share {
-      padding-top: 5rem;
-      padding-bottom: 5rem; } }
+      padding-top: 3rem;
+      padding-bottom: 5rem; }
+
+    .notepad-post-share h4 {
+      font-size: 14px;
+      color: gray;
+    }  }
 
 .notepad-author-info {
   padding: 0;
@@ -417,7 +424,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     @media only screen and (min-width: 40.063em) {
       .notepad-page-title h1,
       .notepad-post-title-simple h1 {
-        font-size: 4.375rem;
+        font-size: 3rem;
         padding-top: 5.625rem;
         padding-bottom: 5.625rem; } }
     @media only screen and (min-width: 70em) {
@@ -461,7 +468,8 @@ html, body, .notepad-post-container, .notepad-post-header {
 /* Page conent */
 .notepad-page-content {
   margin: 0 auto;
-  padding: 0 0 5rem; }
+  padding: 0 0 5rem;
+  min-height: 80%; }
   .notepad-page-content > div:not(.notepad-page-title) {
     margin: 0 auto;
     padding-left: 1.875rem;
@@ -471,7 +479,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol {
       padding-left: 1.25rem;
       font-size: 1.125rem; }
-    .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6 {
+    .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6 {
       font-weight: bold; }
     .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6, .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol, .notepad-page-content > div:not(.notepad-page-title) blockquote, .notepad-page-content > div:not(.notepad-page-title) pre, .notepad-page-content > div:not(.notepad-page-title) hr {
       max-width: 56.25rem;
@@ -564,7 +572,7 @@ iframe {
     text-transform: uppercase; }
   @media only screen and (min-width: 40.063em) {
     .notepad-disqus {
-      padding-top: 5.3125rem;
+      padding-top: 0.3125rem;
       padding-bottom: 9.375rem; } }
 .post-list {
     padding: 0;
@@ -600,9 +608,21 @@ iframe {
     float: right;
 }
 
+.post-list .entry-author {
+    display: none;
+    font-size: 14px;
+}
+
 @media only screen and (min-width:48em) {
     .post-list .entry-date {
         display: inline;
+    }
+
+    .post-list .entry-author {
+        display: inline;
+        float: none;
+        color: #B5B5B5;
+        font-weight: 100;
     }
 }
 .tag-box {

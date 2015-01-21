@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Primeiro encontro do PyLadies Recife"
-headline: 
+title: "Primeiro encontro Recife"
 modified: 2014-10-18
 category: Eventos
-tags: [Comunidade Python Brasil, PyLadies Recife, Python]
+tags: [eventos, recife]
 comments: true
 author: Lidiane Monteiro
-featured: true
+author_url:
 ---
 
 Lançamento do PyLadies Recife: um encontro para nunca mais esquecer!
