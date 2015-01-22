@@ -8,16 +8,18 @@
             {% include header.html %}
         </header>
 
-<div class="wrap-videos">
-    <embed width="400" height="315" src="//www.youtube.com/embed/2VWwqqsQMF0">
-    <embed width="400" height="315" src="//www.youtube.com/embed/stzV_lYN0aw">
-    <embed width="400" height="315" src="//www.youtube.com/embed/4Knb18O_8s8">
-</div>
 
         <main class="notepad-content" role="main">
+
+        <div class="wrap-videos">
+            <embed width="400" height="315" src="//www.youtube.com/embed/4oHw6LcViMI">
+            <embed width="400" height="315" src="//www.youtube.com/embed/5M9iFmMqcmc">
+            <embed width="400" height="315" src="//www.youtube.com/embed/QeFqUjSD7Jw">
+        </div>
+        
             {{ content }}
+            {% include footer.html %}
         </main>
-        {% include footer.html %}
         {% include scripts.html %}  
     </body>
 </html>

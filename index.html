@@ -42,7 +42,9 @@ tags: [python, blog, university, pyladies]
     </article>
 	{% endfor %}
     <nav class="pagination" role="navigation">
-    {% if paginator.previous_page %}
+    <a class="newer-posts" href="{{ site.url }}/featured">View All Posts</a>
+
+    <!-- {% if paginator.previous_page %}
 	    {% if paginator.previous_page == 1 %}
 	    <a class="newer-posts" href="/"><i class="fa fa-chevron-left"></i> Newer</a>
 	    {% else %}
@@ -92,5 +94,5 @@ tags: [python, blog, university, pyladies]
 
         </div>
     </article>
-	{% endfor %}
+	{% endfor %} -->
 {% endif %}

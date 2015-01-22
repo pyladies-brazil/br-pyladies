@@ -502,12 +502,6 @@ nav.pagination {
     border-radius: 0.1875rem;
     color: black;
     border: 0.125rem solid black; }
-  nav.pagination .newer-posts {
-    float: left;
-  }
-  nav.pagination .older-posts {
-    float: right;
-  }
   nav.pagination .newer-posts:hover,
   nav.pagination .older-posts:hover {
     border: 0.125rem solid #e51843;
