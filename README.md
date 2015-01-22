@@ -21,7 +21,7 @@ ______________
 
 ``cd br-pyladies``   
 
-``LC_ALL="en_US.UTF-8" jekyll serve -w``
+``jekyll serve -w``
 
 <br>  
 Now you can access [http://localhost:4000/](http://localhost:4000/)
