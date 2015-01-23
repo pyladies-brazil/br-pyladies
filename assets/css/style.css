@@ -427,7 +427,7 @@ main, .notepad-share-icons, .notepad-disqus {
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
-      font-size: 28px;
+      font-size: 24px;
       margin-bottom: 0.9375rem; } }
   .notepad-content .notepad-index-post .notepad-post-excerpt {
     color: black;
