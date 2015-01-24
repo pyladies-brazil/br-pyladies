@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include head.html %}
-    </head>
-    <body class="home-template">
-        <header class="notepad-site-head">
-            {% include header.html %}
-        </header>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="home-template">
+    <header class="notepad-site-head">
+      {% include header.html %}
+    </header>
 
+    <main class="notepad-content" role="main">
 
-        <main class="notepad-content" role="main">
+      {{ content }}
 
-        <div class="wrap-videos">
-            <embed width="400" height="315" src="//www.youtube.com/embed/4oHw6LcViMI">
-            <embed width="400" height="315" src="//www.youtube.com/embed/5M9iFmMqcmc">
-            <embed width="400" height="315" src="//www.youtube.com/embed/QeFqUjSD7Jw">
-        </div>
-        
-            {{ content }}
-            {% include footer.html %}
-        </main>
-        {% include scripts.html %}  
-    </body>
+      <div class="row wrap-videos">
+        <div class = "video"><embed src="//www.youtube.com/embed/4oHw6LcViMI"></div>
+        <div class = "video"><embed src="//www.youtube.com/embed/5M9iFmMqcmc"></div>
+        <div class = "video"><embed src="//www.youtube.com/embed/QeFqUjSD7Jw"></div>
+      </div>
+
+      {% include footer.html %}
+    </main>
+
+    {% include scripts.html %}
+  </body>
 </html>
