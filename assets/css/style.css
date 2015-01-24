@@ -140,10 +140,16 @@
 
 .wrap-videos {
   padding-top: 10px;
-padding-bottom: 10px;
-border-bottom: 1px solid #DBDBDB;
-margin: 0 auto;
-width: 95%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  max-width: 95%;
+}
+
+.wrap-videos embed {
+  padding: 5px;
+  float: left;
+  width: 400px;
+  height: 315px;
 }
 
 .wrap-events {
