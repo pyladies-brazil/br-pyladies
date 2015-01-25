@@ -1,7 +1,6 @@
 html, body {
   width: 100% !important; 
 }
-
 .layout {
   width: 1200px;
   margin: 0 auto;
@@ -11,7 +10,6 @@ html, body {
   .post { width: 100% !important; }
   .post p { text-align: left; }
 }
-
 
 /* Eventos */
 
@@ -551,7 +549,7 @@ nav.pagination {
     margin-left: 0.625rem; }
 
 .notepad-site-footer {
-  background: #262626; }
+  background: #be1a3b; }
   .notepad-site-footer.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-footer .social-icons,
