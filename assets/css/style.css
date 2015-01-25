@@ -1,4 +1,10 @@
-
+html, body {
+  width: 100% !important; 
+}
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+}
 /* Eventos */
 
 #archive {padding-top: 20px;}
@@ -9,12 +15,12 @@
    color: #222222; }
 
 #archive h2 {
-  color: black;
+  color: #262626;
     font-size: 16px;
     font-weight: 100;
     text-align: left;
 }
-#archive code, #archive abbr, #archive acronym { color: black; }
+#archive code, #archive abbr, #archive acronym { color: #262626; }
 #archive .grid a {
   overflow: hidden;
   padding: 0.25em;
@@ -139,17 +145,27 @@
 }
 
 .wrap-videos {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DBDBDB;
-  max-width: 95%;
 }
 
-.wrap-videos embed {
-  padding: 5px;
+.video {
+  width: 33%;
   float: left;
-  width: 400px;
+}
+.video embed {
+  padding: 1%;
+  float: left;
+  width: 100%;
   height: 315px;
+}
+
+@media screen and (max-width: 40.063em) {
+  .video { width: 100%; }
 }
 
 .wrap-events {
@@ -157,7 +173,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .wrap { padding: 0 12px; }
 }
 
@@ -213,13 +228,13 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
-    color: black;
+    color: #262626;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem; }
     .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: black; }
+      color: #262626; }
   .notepad-blog-menu ul {
-    background: black;
+    background: #262626;
     position: absolute;
     width: 100%;
     -webkit-transform: translate3d(0, -110%, 0);
@@ -289,18 +304,17 @@ main, .notepad-share-icons, .notepad-disqus {
           text-align: left;
           padding: 0; }
           .notepad-blog-menu ul li a {
-            color: black;
+            color: #262626;
             display: inline-block;
             border-bottom: 0.1875rem solid transparent;
             width: auto;
             height: auto; }
             .notepad-blog-menu ul li a:hover {
-              color: black;
+              color: #262626;
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: rgb(240, 240, 240);
-  border-bottom: 1px solid #E5E5E5 }
+ }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 5rem; }
@@ -318,18 +332,18 @@ main, .notepad-share-icons, .notepad-disqus {
     font-family: "Montserrat", sans-serif;
     font-size: 1.625rem;
     font-weight: 700;
-    color: black;
+    color: #262626;
     text-transform: uppercase;
     letter-spacing: -0.0625rem; }
     .notepad-site-head .notepad-site-head-menu .title a {
-      color: black; }
+      color: #262626; }
       .notepad-site-head .notepad-site-head-menu .title a:hover {
-        color: black; }
+        color: #262626; }
 
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: black;
+  background-color: #262626;
   background-size: cover; }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
@@ -384,8 +398,7 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-content .notepad-index-post {
   /*visibility: hidden; -- uncomment to have the fadeIn effect back (as also line :561)*/
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  border-bottom: 0.0625rem solid #d9d9d9; }
+  padding-bottom: 2.5rem; }
   .notepad-content .notepad-index-post .datetime {
     margin-bottom: 2.5rem; }
   @media only screen and (min-width: 40.063em) {
@@ -416,11 +429,11 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-content .notepad-index-post .notepad-post-meta .month-year {
       display: block;
       font-size: 1rem;
-      color: black;
+      color: #262626;
       font-size: 0.875rem;
       font-family: "Montserrat", sans-serif;}
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
-    color: black;
+    color: #262626;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
@@ -429,14 +442,14 @@ main, .notepad-share-icons, .notepad-disqus {
     padding: 0;
     line-height: 1.1; }
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
-      color: black; }
+      color: #262626; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
       font-size: 24px;
       margin-bottom: 0.9375rem; } }
   .notepad-content .notepad-index-post .notepad-post-excerpt {
-    color: black;
+    color: #262626;
     font-size: 1.25rem;
     margin-top: 0.625rem;
     text-align: center; }
@@ -449,7 +462,7 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-content .notepad-index-post .notepad-index-post-tags {
     font-size: 0.8125rem;
     float: none;
-    color: black;
+    color: #262626;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 0.625rem; }
@@ -457,8 +470,8 @@ main, .notepad-share-icons, .notepad-disqus {
       display: inline-block;
       padding: 0.3125rem 0.9375rem;
       margin-right: 0.1875rem;
-      color: black;
-      border: 0.0625rem solid black;
+      color: #262626;
+      border: 0.0625rem solid #262626;
       border-radius: 0.125rem;
       margin-bottom: 0.3125rem; }
       .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
@@ -479,7 +492,7 @@ main, .notepad-share-icons, .notepad-disqus {
     margin-top: 1.5625rem;
     font-size: 0.8125rem;
     color: white;
-    background-color: black;
+    background-color: #262626;
     font-weight: 600;
     padding: 0.625rem 2.5rem;
     text-transform: uppercase;
@@ -497,8 +510,10 @@ main, .notepad-share-icons, .notepad-disqus {
       margin-right: 0.3125rem; } }
 
 nav.pagination {
-  padding: 0px 5px 50px 5px;
-  text-align: center; }
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  border-bottom: 0.0625rem solid #d9d9d9;}
   nav.pagination .newer-posts,
   nav.pagination .older-posts,
   nav.pagination .page-number {
@@ -506,12 +521,13 @@ nav.pagination {
     display: inline-block;
     padding: 0.625rem 1.25rem;
     border-radius: 0.1875rem;
-    color: black;
-    border: 0.125rem solid black; }
+    color: #e51843;
+    border: 0.125rem solid #e51843;
+    margin-bottom: 20px;}
   nav.pagination .newer-posts:hover,
   nav.pagination .older-posts:hover {
-    border: 0.125rem solid #e51843;
-    color: #e51843; }
+    border: 0.125rem solid #262626;
+    color: #262626; }
   nav.pagination .newer-posts.faded,
   nav.pagination .older-posts.faded {
     color: gray;
@@ -525,7 +541,7 @@ nav.pagination {
     margin-left: 0.625rem; }
 
 .notepad-site-footer {
-  background: black; }
+  background: #262626; }
   .notepad-site-footer.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-footer .social-icons,
@@ -547,7 +563,7 @@ nav.pagination {
     float: none;
     padding-bottom: 3.75rem; }
     .notepad-site-footer .social-icons a {
-      color: black; }
+      color: #262626; }
   @media only screen and (min-width: 70em) {
     .notepad-site-footer .social-icons,
     .notepad-site-footer .copyright {
@@ -602,7 +618,7 @@ nav.pagination {
   .notepad-tags-container .notepad-tags-header {
     font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
-    color: black;
+    color: #262626;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -784,7 +800,7 @@ figcaption {
 .highlight .sd { color: #000000} /* Literal.String.Doc */
 .highlight .s2 { color: #000000} /* Literal.String.Double */
 .highlight .se { color: #000000} /* Literal.String.Escape */
-.highlight .sh { color: #000000} /* Literal.String.Heredoc */
+.highlight .sh { color: #000000} /* Literal.String.He#262626oc */
 .highlight .si { color: #000000} /* Literal.String.Interpol */
 .highlight .sx { color: #000000} /* Literal.String.Other */
 .highlight .sr { color: #000000} /* Literal.String.Regex */
@@ -1124,7 +1140,7 @@ button::-moz-focus-inner {
     width: 100%;
     height: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: black; }
+    background: #262626; }
 
 /* Main image in popup */
 img.mfp-img {
