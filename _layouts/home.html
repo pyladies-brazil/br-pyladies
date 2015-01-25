@@ -3,11 +3,12 @@
   <head>
     {% include head.html %}
   </head>
-  <body class="home-template">
+  <body>
     <header class="notepad-site-head">
       {% include header.html %}
     </header>
-
+    
+    <div class="layout">
     <main class="notepad-content" role="main">
 
       {{ content }}
@@ -17,7 +18,7 @@
         <div class = "video"><embed src="//www.youtube.com/embed/5M9iFmMqcmc"></div>
         <div class = "video"><embed src="//www.youtube.com/embed/QeFqUjSD7Jw"></div>
       </div>
-
+      </div>
       {% include footer.html %}
     </main>
 

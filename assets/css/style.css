@@ -1,10 +1,19 @@
 html, body {
   width: 100% !important; 
 }
+
 .layout {
   width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 40.063em) {
+  .layout { width: 95%; }
+  .post { width: 100% !important; }
+  .post p { text-align: left; }
+  .datetime { background: red;}
+}
+
+
 /* Eventos */
 
 #archive {padding-top: 20px;}
@@ -147,7 +156,7 @@ html, body {
 .wrap-videos {
   margin: 0 auto;
   text-align: center;
-  max-width: 95%;
+  max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DBDBDB;
@@ -442,7 +451,8 @@ main, .notepad-share-icons, .notepad-disqus {
     padding: 0;
     line-height: 1.1; }
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
-      color: #262626; }
+      color: #262626;
+      &:hover: red;}
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
@@ -576,37 +586,7 @@ nav.pagination {
       text-align: right;
       float: right; } }
 
-/*.fadeInDown {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  visibility: visible !important; }*/
 
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px); }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0); } }
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    transform: translateY(-20px); }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0); } }
 .tag-template .notepad-index-post:first-of-type {
   padding-top: 3.125rem; }
   @media only screen and (min-width: 40.063em) {
