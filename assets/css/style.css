@@ -10,7 +10,6 @@ html, body {
   .layout { width: 95%; }
   .post { width: 100% !important; }
   .post p { text-align: left; }
-  .datetime { background: red;}
 }
 
 
