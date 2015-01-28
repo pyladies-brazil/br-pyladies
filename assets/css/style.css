@@ -21,10 +21,10 @@ html, body {
    color: #222222; }
 
 #archive h2 {
-  color: #262626;
-    font-size: 16px;
-    font-weight: 100;
-    text-align: left;
+  color: #e51843;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: left;
 }
 #archive code, #archive abbr, #archive acronym { color: #262626; }
 #archive .grid a {
@@ -33,6 +33,10 @@ html, body {
   text-decoration: none;
   text-align: center;
   border-radius: 0.5em;
+}
+
+.next-events, past-events {
+  margin-bottom: 45px;
 }
 
 #archive .next-events a {
