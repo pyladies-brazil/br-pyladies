@@ -1,14 +1,16 @@
 # Next Events
 
+
+
+# Past Events
+
 - url: http://bit.ly/pyladies-hangout
   name: Hangout PyLadies
   day: 24
   month: Jan
   year: 2015
   local: Hangouts OnAir
-  past: false
-
-# Past Events
+  past: true
 
 - url: https://plus.google.com/u/0/events/cfv3qsupe4997jvgqc0fcuc1r04
   name: PyLadies First
