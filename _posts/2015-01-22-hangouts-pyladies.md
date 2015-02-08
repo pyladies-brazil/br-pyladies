@@ -20,7 +20,7 @@ Vamos falar sobre quem é o PyLadies Brasil hoje, os eventos que já fizemos e d
 
 O hangout vai ao ar no dia **24 de Janeiro (sábado), às 10h (horário de Brasília)** e teremos meninas de grupos de vários lugares do Brasil conversando sobre a comunidade PyLadies! **Não perca.**
 
-Diga **SIM** no nosso evento e não esqueça de participar: [Hangout PyLadies Brasil](http://bit.ly/pyladies-hangout)
+Diga **SIM** no nosso evento e não esqueça de participar: [Hangout PyLadies Brasil](https://plus.google.com/events/c1tpmmqj24r92ed3er49dhq5juc)
 
 ![Hangout PyLadies]({{site.baseurl}}/images/hangouts.png)
 
