@@ -2,25 +2,28 @@
 
 # Overview
 
-This is the source code for the http://brasil.pyladies.com/ website. It uses [Jekyll](jekyllrb.com), a static site generator.
-
-For continuous integration and deploy we use [SnapCI](snap-ci.com) and the website is hosted on [Heroku](https://www.heroku.com/).
-
-   
-Thank you for your visit. You're more than welcome to **contribute** with us. You can start taking a look at [Open Issues](https://github.com/pyladies-brazil/br-pyladies/issues)  :)
+Este é o código fonte do site http://brasil.pyladies.com/ . Para construí-lo estamos usando [Jekyll](jekyllrb.com), um poderoso gerador de sites estáticos, o [SnapCI](snap-ci.com) como ferramenta de integração contínua e deploy automático para o [Heroku](https://www.heroku.com/).
 
 
-,PyLadies BR team
+______________
+
+### Escrevendo um post para o blog
+
+[Instruções para escrever um post aqui!](https://github.com/pyladies-brazil/br-pyladies/wiki/Escrevendo-um-post-para-o-blog-Pyladies-Brasil)
 
 ______________
 
 
-### Running PyLadies Website locally:
+### Rodando o site do Pyladies Brasil localmente:
 
 ``git clone https://github.com/pyladies-brazil/br-pyladies.git``  
 
 ``cd br-pyladies``   
 
+``bundle install``
+
 ``jekyll serve -w``  
 <br>  
-Now you can access [http://localhost:4000/](http://localhost:4000/)
+Acesse [http://localhost:4000/](http://localhost:4000/) para ver o site.
+
+(você precisa ter o [bundler](http://bundler.io/) instalado)
