@@ -1,3 +1,10 @@
+- name: Andrêza Leite
+  url: https://sites.google.com/site/bancodedadosufrpe/
+  github: 
+  twitter: andreza_paju
+  facebook: andreza.leite1
+  image: /images/ladies/andreza.jpeg
+
 - name: Aninha Lacerda
   url: http://aninhalacerda.com
   github: aninhalacerda
@@ -11,11 +18,31 @@
   facebook: https://www.facebook.com/gabi.cavalcante.silva
   image: /images/ladies/Eu.jpg
 
+- name: Gláucia Esppenchutz
+  url: http://glaucia.esppenchutz.com.br/
+  twitter: gl_esppen
+  facebook: glaucia.esppenchutz
+  image: /images/ladies/glaucia.jpeg
+
 - name: Katyanna Moura
   github: katyanna
   twitter: amelie_kn
   facebook: katyanna.moura
   image: /images/ladies/katyanna.png
+
+- name: Lidiane Monteiro
+  github: lidymonteiro
+  twitter: Lidy_Monteiro
+  facebook: lidiannemonteiro
+  image: /images/ladies/lidy.jpg
+
+- name: Vitória Vasconcelos
+  github: vitoriavasconcelos
+  twitter: vasconcv
+  facebook: vitoria.vilela.vasconcelos
+  image: /images/ladies/vitoria.jpg
+
+
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
 #   url: [optional] seu site pessoal
