@@ -22,7 +22,7 @@ Durante o evento conhecemos pessoas que foram capazes de abrir mão do sono para
 
 Durante o encontro, fizemos novos contatos, reatamos outros, abrimos novos grupos PyLadies, descobrimos novas iniciativas, prometemos a nós mesmas nos envolvemos em todas elas (mesmo sem tempo suficiente para fazer isso), construimos vários laços, aprendemos muitas tecnologias, e com certeza, vamos levar todas essas experiências para sempre.
 
-Agora que o evento acabou, esperamos que venham outros... outros eventos, outros encontros, outras iniciativas, novos contribuintes... Esperamos que essa sensação prazerosa que a comunidade Python nos dá nunca acabe. E que venha Python Nordeste 2015 em Teresina/Piauí \o E a Python Brasil em São Carlos/SP.
+Agora que o evento acabou, esperamos que venham outros... outros eventos, outros encontros, outras iniciativas, novos contribuintes... Esperamos que essa sensação prazerosa que a comunidade Python nos dá nunca acabe. E que venha Python Nordeste 2016 em Teresina/Piauí \o E a Python Brasil 2015 em São Carlos/SP.
 
 Até mais para tod@s, <br>
 qualquer coisa é só gritar.<br>
