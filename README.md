@@ -27,3 +27,6 @@ ______________
 Acesse [http://localhost:4000/](http://localhost:4000/) para ver o site.
 
 (você precisa ter o [bundler](http://bundler.io/) instalado)
+
+
+:)
