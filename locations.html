@@ -13,17 +13,16 @@ description: "Capítulos do PyLadies no Brasil"
 			{% for location in site.data.locations %}
 			  <li class="location">
 			    
-			    <a target="blank" href="{{ location.url }}">
+			    <a target="_blank" href="{{ location.url }}">
 			    	<span class="location-name"> 
 			            PyLadies {{ location.city }}
 			        </span>
 			      <img class="img-location" src="{{ site.url }}{{ location.image }}">
 			    </a>
 
-					<div class="social-icons">
-        
+					<div >
         {% if location.twitter %}
-        <a target="blank" href="{{ location.twitter }}">
+        <a target="_blank" href="{{ location.twitter }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-twitter fa-stack-1x"></i>
@@ -32,7 +31,7 @@ description: "Capítulos do PyLadies no Brasil"
         {% endif %}
         
         {% if location.facebook %}
-        <a target="blank" href="{{ location.facebook }}">
+        <a target="_blank" href="{{ location.facebook }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-facebook fa-stack-1x"></i>
@@ -41,7 +40,7 @@ description: "Capítulos do PyLadies no Brasil"
         {% endif %}
 
         {% if location.email %}
-        <a target="blank" href="mailto:{{ location.email }}">
+        <a target="_blank" href="mailto:{{ location.email }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-envelope fa-stack-1x"></i>
