@@ -2,7 +2,7 @@
 
 # Overview
 
-Este é o código fonte do site http://brasil.pyladies.com/ . Para construí-lo estamos usando [Jekyll](jekyllrb.com), um poderoso gerador de sites estáticos, o [SnapCI](snap-ci.com) como ferramenta de integração contínua e deploy automático para o [Heroku](https://www.heroku.com/).
+Este é o código fonte do site http://brasil.pyladies.com/ . Para construí-lo estamos usando [Jekyll](http://jekyllrb.com), um poderoso gerador de sites estáticos, o [SnapCI](snap-ci.com) como ferramenta de integração contínua e deploy automático para o [Heroku](https://www.heroku.com/).
 
 
 ______________
