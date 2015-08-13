@@ -35,7 +35,7 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 ```
 
-No estiver usando Mac:
+Quem estiver usando Mac:
 
 ```sh
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
