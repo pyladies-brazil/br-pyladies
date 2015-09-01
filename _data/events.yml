@@ -1,14 +1,15 @@
 # Next Events
+
+# Past Events
+
 - url: www.meetup.com/Women-Who-Code-Recife/events/221390351/
   name: PyLadies Recife Dojo
   day: 28
   month: Mar
   year: 2015
   local: Cafeteria Café Café
-  past: false
+  past: true
 
-
-# Past Events
 
 - url: http://bit.ly/pyladies-hangout
   name: Hangout PyLadies
@@ -26,7 +27,7 @@
   local: Hangouts OnAir
   past: true
 
-- url: 
+- url:
   name: PyLadies Recife
   day: 06
   month: Set
@@ -34,7 +35,7 @@
   local: ThoughtWorks
   past: true
 
-- url: 
+- url:
   name: I PyLadies Natal
   day: 02
   month: Abr
