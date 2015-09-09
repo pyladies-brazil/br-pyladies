@@ -1,5 +1,13 @@
 # Next Events
 
+- url: http://www.meetup.com/pt/PyLadiesSP/events/225189894/
+  name: PyLadies São Paulo
+  day: 12
+  month: Set
+  year: 2015
+  local: Centro de Treinamento da Novatec
+  past: False
+
 # Past Events
 
 - url: www.meetup.com/Women-Who-Code-Recife/events/221390351/
