@@ -45,13 +45,13 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 Instale a ultima versão do Ruby:
 
 ```sh
-rbenv install 2.2.1
+rbenv install 2.2.3
 ```
 
 Configure para usar a versão recem instalada:
 
 ```sh
-rbenv global 2.2.1
+rbenv global 2.2.3
 ```
 
 Intalando o bundler

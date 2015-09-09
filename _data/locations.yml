@@ -21,6 +21,15 @@
   facebook: https://www.facebook.com/pyladiesrio
   url: https://www.facebook.com/pyladiesrio
 
+- city: Duque de Caxias - RJ
+  image: /images/locais/pyladies-rio.png
+  facebook: https://www.facebook.com/pages/PyLadies-Duque-de-Caxias/
+
+- city: Curitiba - PR
+  image: /images/locais/pyladies-curitiba.png
+  facebook: https://www.facebook.com/PyLadiesCuritiba
+  url: /locations/curitiba
+
 - city: São Paulo - SP
   image: /images/locais/location.png
   twitter: https://twitter.com/PyLadiesSPaulo
